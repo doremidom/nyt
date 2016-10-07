@@ -1,0 +1,118 @@
+body{
+	font-family: Georgia;
+	margin: 30px;
+	margin-top: 10px;
+}
+right{
+	float:right;
+}
+left{
+	float:left;
+}
+container{
+
+}
+p.ticker{
+	font-size: 13px;
+	margin-left: 70px;
+}
+p:hover.ticker{
+	text-decoration: underline;
+}
+div#ticker p:hover.smaller{
+	text-decoration: underline;
+}
+p.smaller{
+	font-size: 13px;
+	border-right: 1px solid lightgray;
+	padding-bottom: 10px;
+	padding-top: 5px;
+}
+#ticker{
+	width: 100%;
+	height: 92px;
+	box-shadow:  0px -5px 0 white, 
+	-3px 0px 3px rgba(0, 0, 0, 0.2);
+	border-bottom: 1px solid #CCC;
+	position: relative;
+    top: 40px;
+    padding-bottom: 5px;
+    overflow: hidden;
+}
+header{
+	position: fixed;
+	border-bottom: 1px solid #CCC;
+	width: 100%;
+	height: 40px;
+	box-shadow:  0px -5px 0 white, 
+	-3px 0px 3px rgba(0, 0, 0, 0.2);
+	text-align: center;
+	margin:auto;
+}
+button.nav-button{
+	background-color: white;
+	border-width: 1px;
+	box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.2);
+	padding: 6px 6px 6px;
+	border-color: #e2e2e2;
+	border-style: solid;
+	font-family: 'Arial';
+	border-radius: 2px;
+	color: black;
+	width: 103px;
+	height: 30px;
+	font-size: 0.6875rem
+}
+button.home-button{
+	background-color: white;
+	border-width: 0px;
+	padding: 10px 10px 10px;
+	font-family: 'Arial';
+	border-radius: 2px;
+	color: black;
+	height: 34px;
+	font-size: 0.6875rem
+}
+button.user-action-button{
+	background-color: #6288a5;
+	border: 1px solid #4d7b9f;
+	padding: 10px 10px 10px;
+	font-family: 'Arial';
+	border-radius: 2px;
+	color: white;
+	height: 34px;
+	font-size: 0.6875rem;
+	margin-right: 10px;
+}
+button:hover.user-action-button{
+	background-color: #4d7b9f;
+}
+
+button:hover{
+	background-color: #F7F7F5;
+}
+i{
+	margin-right: 5px;
+}
+i.fa.fa-cog{
+	padding-right: 30px;
+}
+li{
+	width: 230px;
+	height: 90px;
+	padding-bottom: 5px;
+	margin-right: 10px;
+	list-style-type: none;
+}
+ul{
+	padding: 8px;
+	padding-top: 0px;
+	display: inline-flex;
+
+}
+.desc{
+	padding-top: 5px;
+	padding-right: 5px;
+	margin-left: 15px;
+	border-right: 1px solid lightgray;
+}
